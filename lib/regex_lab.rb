@@ -1,6 +1,6 @@
 require 'pry'
 def starts_with_a_vowel?(word)
-  word.start_with?(/^[aeiouAEIOU]/)
+  word.start_with?(/^[aeiouAEIOU]/)? true:false
 end
 
 
